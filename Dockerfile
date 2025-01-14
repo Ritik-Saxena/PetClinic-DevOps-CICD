@@ -5,8 +5,12 @@ RUN dnf update -y && \
 
 # Clone the repository and build the project
 WORKDIR /app
-RUN git clone https://github.com/Ritik-Saxena/PetClinic-DevOps-CICD.git && \
-    cd PetClinic-DevOps-CICD/Petclinic && \
+# RUN git clone https://github.com/Ritik-Saxena/PetClinic-DevOps-CICD.git && \
+#     cd PetClinic-DevOps-CICD/Petclinic && \
+#     mvn clean install
+RUN git clone https://github.com/Ritik-Saxena/PetClinic-DevOps-CICD.git 
+RUN echo "***********DIRECTORY***********: " && pwd
+RUN cd PetClinic-DevOps-CICD/Petclinic && \
     mvn clean install
 
 # Use Tomcat for hosting the application
