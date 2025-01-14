@@ -7,7 +7,7 @@ RUN dnf update -y && \
 WORKDIR /app
 RUN git clone https://github.com/Ritik-Saxena/PetClinic-DevOps-CICD.git && \
     ls -R && \
-    cd /app/PetClinic-DevOps-CICD/Petclinic && \
+    cd PetClinic-DevOps-CICD && \
     mvn clean install
 
 # Use Tomcat for hosting the application
