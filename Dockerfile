@@ -6,6 +6,7 @@ RUN dnf update -y && \
 # Clone the repository and build the project
 WORKDIR /app
 RUN git clone https://github.com/Ritik-Saxena/PetClinic-DevOps-CICD.git && \
+    ls -R && \
     cd /app/PetClinic-DevOps-CICD/Petclinic && \
     mvn clean install
 
