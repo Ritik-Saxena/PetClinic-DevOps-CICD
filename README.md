@@ -47,7 +47,7 @@ This project showcases a fully automated CI/CD pipeline designed for modern appl
 ```bash
 git clone https://github.com/your-username/devops-project.git
 cd devops-project
-
+```
 
 
 
