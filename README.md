@@ -49,7 +49,92 @@ git clone https://github.com/your-username/devops-project.git
 cd devops-project
 ```
 
+### 2. Provision Infrastructure with Ansible
 
+```bash
+ansible-playbook -i inventory setup.yml
+```
+This sets up Jenkins, SonarQube, Nexus, and Elastic IP configuration.
+
+---
+
+### 3. Create & Configure Jenkins Pipeline
+
+- 🔧 **Create a new Jenkins Pipeline job**
+- 🔗 **Connect it to your GitHub repo**
+- 🔑 **Add any required credentials** (AWS, GitHub, DockerHub, etc.)
+- ⚙️ **Set environment variables** needed for deployment
+---
+
+### 4. Add SonarQube Integration & Quality Gates
+
+- 🔍 **Install SonarQube Scanner plugin** in Jenkins
+- ⚙️ **Configure SonarQube server** in Jenkins global settings
+- 📦 **Run code analysis** using SonarQube scanner in the pipeline
+- ✅ **Set up Quality Gates** in SonarQube dashboard
+- 🚫 **Break the build** if code doesn’t meet the quality gate threshold
+
+---
+
+### 5. Build & Deploy Docker Image to AWS ECR
+
+- 🐳 **Create a Dockerfile** for your application
+- 🔨 **Build the Docker image** in Jenkins pipeline
+- 🔐 **Authenticate Jenkins to AWS ECR**
+- 🚀 **Push the image** to your ECR repository
+
+---
+
+### 6. Deploy to AWS ECS via Jenkins
+
+- 🏗️ **Create ECS cluster** and define task/service definition
+- 📦 **Pull Docker image from ECR** using ECS service
+- 🛠️ **Update ECS task definition** in pipeline script
+- 📤 **Trigger deployment** from Jenkins
+- 🔁 **Attach Load Balancer** to ECS service for traffic routing
+
+---
+
+### 7. Configure Slack Notifications
+
+- 💬 **Create a Slack App** and generate a webhook URL
+- 🔌 **Install Slack Notification plugin** in Jenkins
+- 🛠️ **Configure webhook URL** in Jenkins global config
+- 🔔 **Send notifications** for:
+  - Build started
+  - Build succeeded
+  - Build failed
+  - Deployment completed
+
+---
+
+### 📌 Tools Used
+
+- 🧰 **Ansible** – Infrastructure provisioning
+- 🔧 **Jenkins** – CI/CD pipeline
+- 🧪 **SonarQube** – Code quality analysis
+- 📦 **Nexus** – Artifact repository
+- 🐳 **Docker** – Containerization
+- ☁️ **AWS ECS & ECR** – Container deployment and registry
+- 🔗 **Elastic Load Balancer** – Traffic distribution
+- 💬 **Slack** – Build/deploy notifications
+
+---
+
+### ✅ Optional Enhancements
+
+- 📈 Add **Prometheus + Grafana** for monitoring
+- 🔄 Implement **blue/green or canary deployments**
+- 🏗️ Use **Terraform** for IaC instead of Ansible
+
+---
+
+### 🤝 Let’s Connect
+
+If this project helped you or inspired your learning, give it a ⭐ and feel free to:
+
+- Open an issue or discussion for feedback
+- Connect with me on [LinkedIn](https://linkedin.com)
 
 
 
