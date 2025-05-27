@@ -1,3 +1,69 @@
+# 🌐 End-to-End DevOps Project on AWS
+
+A hands-on, real-world DevOps pipeline built from scratch using Ansible, Jenkins, SonarQube, Nexus, Docker, AWS ECS/ECR, Load Balancer, and Slack Notifications.
+
+---
+
+## 📌 Project Overview
+
+This project showcases a fully automated CI/CD pipeline designed for modern application deployment using best DevOps practices. It features infrastructure automation, containerized deployments, quality gates, and cloud-native scalability—all deployed on AWS.
+
+---
+
+## 🚀 Tech Stack
+
+| Tool/Service     | Purpose                                 |
+|------------------|-----------------------------------------|
+| **Ansible**       | Infrastructure as Code (IaC)            |
+| **Elastic IP**    | Consistent public IP for services       |
+| **Jenkins**       | CI/CD automation                        |
+| **SonarQube**     | Code quality analysis                   |
+| **Quality Gates** | Build validation                        |
+| **Nexus**         | Artifact repository                     |
+| **Docker**        | Containerization                        |
+| **AWS ECR**       | Container image storage                 |
+| **AWS ECS**       | Container orchestration                 |
+| **Load Balancer** | High availability and traffic routing   |
+| **Slack**         | Real-time notifications                 |
+
+---
+
+## 🔧 Features
+
+- ✅ Infrastructure setup automated using Ansible
+- 🧪 Jenkins pipeline triggered on GitHub commits
+- 🔍 SonarQube checks with Quality Gates enforcement
+- 📦 Artifact management via Nexus Repository
+- 🐳 Dockerized app deployment to AWS ECS
+- 🔁 Load Balanced ECS services for high availability
+- 🔔 Slack integration for build/deploy alerts
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/devops-project.git
+cd devops-project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Spring PetClinic Sample Application  
 # Modified By DevOps Shack  https://www.youtube.com/@devopsshack
 
