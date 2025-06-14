@@ -6,8 +6,9 @@ A hands-on, real-world DevOps pipeline built from scratch using Ansible, Jenkins
 
 ## 📌 Project Overview
 
-This project showcases a fully automated CI/CD pipeline designed for modern application deployment using best DevOps practices. It features infrastructure automation, containerized deployments, quality gates, and cloud-native scalability—all deployed on AWS.
+This project showcases a fully automated CI/CD pipeline designed for modern application deployment using best DevOps practices. It features infrastructure automation, containerized deployments, quality gates, and cloud-native scalability—all deployed on Amazon Web Services (AWS).
 
+### Visit for detailed article: https://ritiksaxenaofficial.hashnode.dev/devops-end-to-end-project
 ---
 
 ## 🚀 Tech Stack
