@@ -39,7 +39,7 @@ pipeline {
     stages {
         stage('Fetch github source code') {
             steps {
-                git branch: 'main', url: 'https://github.com/jaiswaladi246/Petclinic.git'
+                git branch: 'main', url: 'https://github.com/Ritik-Saxena/PetClinic-DevOps-CICD.git'
             }
         }
 
