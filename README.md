@@ -144,7 +144,7 @@ This sets up Jenkins, SonarQube, Nexus, and Elastic IP configuration.
 
 ### 🤝 Let’s Connect
 
-If this project helped you or inspired your learning, give it a <img src="https://user-images.githubusercontent.com/62079355/200077014-f3e95bba-57a6-4c7a-b26a-212bf18e5162.png" width=25 height=25> and <img src="https://user-images.githubusercontent.com/62079355/220893415-ea2015e9-6df6-4de2-ab66-041a3f890be2.png" width=25 height=25> and feel free to:
+<p> If this project helped you or inspired your learning, give it a ⭐ and 🍴 and feel free to: </p>
 
 - Open an issue or discussion for feedback
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/ritik-saxena/)
